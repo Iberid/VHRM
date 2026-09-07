@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased
+
+### Added
+- Multilingual documentation: English, Spanish, Brazilian Portuguese and Simplified Chinese.
+- In-application language selector for English, Español, Português (Brasil) and 中文（简体）.
+- Persistent language preference stored in `~/.config/vhrm/config.json`.
+- Centralized translation layer in `src/vhrm/i18n.py` with English fallback for future languages.
+
 ## 0.1.0 - 2026-09-07
 
 ### Added
