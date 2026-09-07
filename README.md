@@ -1,5 +1,7 @@
 # VHRM — Veeam Hardened Repository Manager
 
+**English** | [Español](README.es.md) | [Português](README.pt-BR.md) | [中文](README.zh-CN.md)
+
 A modern, open-source terminal interface for auditing and preparing Linux systems used as **Veeam Hardened Repositories**.
 
 > **Status:** early community release / technical preview. Use in labs first. Storage changes must always be validated by an administrator.
@@ -21,10 +23,13 @@ Instead of extending its 2021 `dialog`-based implementation, VHRM is an **indepe
 | Architecture | large procedural script | UI separated from system/audit/planning logic |
 | Repository checks | setup-oriented | XFS, permissions, SSH/firewall and Veeam service audit |
 | Maintenance | pinned 2020-era dependencies | modern Python packaging (`pyproject.toml`) |
+| Languages | single-language UI | English, Español, Português and 中文 with persistent selector |
 
 ## Current features
 
 - Modern keyboard-driven terminal dashboard.
+- Built-in language selector.
+- Selected language is stored in `~/.config/vhrm/config.json`.
 - Linux distribution, kernel, CPU, RAM and root filesystem summary.
 - Block-device inventory through `lsblk`.
 - Security/readiness audit for:
@@ -36,7 +41,7 @@ Instead of extending its 2021 `dialog`-based implementation, VHRM is an **indepe
   - `0700` repository permissions;
   - XFS filesystem detection.
 - Reviewable repository provisioning plan generator.
-- No automatic formatting of disks in v0.1.0.
+- No automatic formatting of disks in v0.1.x.
 
 ## Install
 
