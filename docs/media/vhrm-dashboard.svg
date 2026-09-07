@@ -1,6 +1,6 @@
-<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1600" height="980" viewBox="0 0 1600 980" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="900" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="980" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0B1220"/>
       <stop offset="1" stop-color="#0F1B2D"/>
     </linearGradient>
@@ -9,53 +9,61 @@
       <stop offset="1" stop-color="#0F172A"/>
     </linearGradient>
   </defs>
-  <rect width="1400" height="900" fill="url(#bg)"/>
-  <rect x="40" y="30" width="1320" height="840" rx="24" fill="#0A0F1A" stroke="#1F2937"/>
-  <rect x="40" y="30" width="1320" height="56" rx="24" fill="#0D1524"/>
+  <rect width="1600" height="980" fill="url(#bg)"/>
+  <rect x="40" y="30" width="1520" height="920" rx="24" fill="#0A0F1A" stroke="#1F2937"/>
+  <rect x="40" y="30" width="1520" height="56" rx="24" fill="#0D1524"/>
   <circle cx="74" cy="58" r="8" fill="#F87171"/><circle cx="100" cy="58" r="8" fill="#FBBF24"/><circle cx="126" cy="58" r="8" fill="#34D399"/>
-  <text x="700" y="64" text-anchor="middle" font-family="Segoe UI,Arial" font-size="24" fill="#E5F0FF" font-weight="700">VHRM — Veeam Hardened Repository Manager</text>
-  <text x="1270" y="64" text-anchor="end" font-family="Segoe UI,Arial" font-size="18" fill="#8FB4FF">concept preview</text>
-  <rect x="76" y="112" width="1248" height="98" rx="18" fill="#101A2A" stroke="#2D6CDF"/>
+  <text x="800" y="64" text-anchor="middle" font-family="Segoe UI,Arial" font-size="24" fill="#E5F0FF" font-weight="700">VHRM — Veeam Hardened Repository Manager</text>
+  <text x="1490" y="64" text-anchor="end" font-family="Segoe UI,Arial" font-size="18" fill="#8FB4FF">concept preview</text>
+
+  <rect x="76" y="112" width="1448" height="98" rx="18" fill="#101A2A" stroke="#2D6CDF"/>
   <text x="108" y="154" font-family="Segoe UI,Arial" font-size="32" fill="#A7F3D0" font-weight="800">VHRM</text>
   <text x="220" y="154" font-family="Segoe UI,Arial" font-size="29" fill="#E5F0FF" font-weight="700">Modern Linux Hardened Repository Manager</text>
   <text x="108" y="187" font-family="Segoe UI,Arial" font-size="20" fill="#93A4B8">Read-first dashboard · security audit · storage visibility · Veeam readiness</text>
-  <rect x="1140" y="132" width="150" height="42" rx="12" fill="#182538" stroke="#3B82F6"/>
-  <text x="1215" y="159" text-anchor="middle" font-family="Segoe UI,Arial" font-size="20" fill="#E5F0FF" font-weight="700">Language: ES</text>
-  <rect x="76" y="236" width="390" height="132" rx="18" fill="url(#panel)" stroke="#2B3545"/>
+  <rect x="1335" y="132" width="155" height="42" rx="12" fill="#182538" stroke="#3B82F6"/>
+  <text x="1412" y="159" text-anchor="middle" font-family="Segoe UI,Arial" font-size="20" fill="#E5F0FF" font-weight="700">Language: ES</text>
+
+  <rect x="76" y="236" width="450" height="140" rx="18" fill="url(#panel)" stroke="#2B3545"/>
   <text x="102" y="271" font-family="Segoe UI,Arial" font-size="20" fill="#69A8FF" font-weight="800">SYSTEM</text>
-  <text x="102" y="304" font-family="Consolas,monospace" font-size="24" fill="#E5F0FF">vhrm-demo</text>
-  <text x="102" y="334" font-family="Consolas,monospace" font-size="20" fill="#B6C2D2">Ubuntu 24.04 LTS</text>
-  <text x="102" y="358" font-family="Consolas,monospace" font-size="20" fill="#B6C2D2">Kernel 6.8 · 32 GB RAM</text>
-  <rect x="505" y="236" width="390" height="132" rx="18" fill="url(#panel)" stroke="#2B3545"/>
-  <text x="531" y="271" font-family="Segoe UI,Arial" font-size="20" fill="#69A8FF" font-weight="800">AUDIT</text>
-  <text x="531" y="308" font-family="Segoe UI,Arial" font-size="28" fill="#86EFAC" font-weight="800">7 pass</text>
-  <text x="665" y="308" font-family="Segoe UI,Arial" font-size="28" fill="#FCD34D" font-weight="800">1 warning</text>
-  <text x="531" y="343" font-family="Segoe UI,Arial" font-size="18" fill="#93A4B8">Repository ready for validation</text>
-  <rect x="934" y="236" width="390" height="132" rx="18" fill="url(#panel)" stroke="#2B3545"/>
-  <text x="960" y="271" font-family="Segoe UI,Arial" font-size="20" fill="#69A8FF" font-weight="800">VEEAM</text>
-  <text x="960" y="306" font-family="Consolas,monospace" font-size="20" fill="#E5F0FF">transport: active</text>
-  <text x="960" y="335" font-family="Consolas,monospace" font-size="20" fill="#E5F0FF">immureposvc: active</text>
-  <text x="960" y="360" font-family="Consolas,monospace" font-size="18" fill="#93A4B8">SSH temporarily disabled</text>
-  <rect x="76" y="396" width="1248" height="54" rx="16" fill="#0D1524" stroke="#293446"/>
-  <rect x="92" y="406" width="180" height="34" rx="10" fill="#1D4ED8"/>
-  <text x="182" y="429" text-anchor="middle" font-family="Segoe UI,Arial" font-size="18" fill="#FFFFFF" font-weight="700">Security audit</text>
-  <text x="342" y="429" font-family="Segoe UI,Arial" font-size="18" fill="#AFC3DA">Storage</text>
-  <text x="445" y="429" font-family="Segoe UI,Arial" font-size="18" fill="#AFC3DA">Provision plan</text>
-  <text x="597" y="429" font-family="Segoe UI,Arial" font-size="18" fill="#AFC3DA">About</text>
-  <rect x="76" y="470" width="1248" height="336" rx="18" fill="#0E1625" stroke="#2B3545"/>
-  <rect x="92" y="488" width="1216" height="44" rx="10" fill="#111D2F"/>
-  <text x="118" y="516" font-family="Segoe UI,Arial" font-size="18" fill="#E5F0FF" font-weight="700">Status</text>
-  <text x="270" y="516" font-family="Segoe UI,Arial" font-size="18" fill="#E5F0FF" font-weight="700">Check</text>
-  <text x="680" y="516" font-family="Segoe UI,Arial" font-size="18" fill="#E5F0FF" font-weight="700">Detail</text>
-  <g font-family="Consolas,monospace" font-size="17">
-    <text x="118" y="566" fill="#86EFAC" font-weight="800">PASS</text><text x="270" y="566" fill="#DCE7F7">Repository filesystem</text><text x="680" y="566" fill="#DCE7F7">XFS</text>
-    <text x="118" y="608" fill="#86EFAC" font-weight="800">PASS</text><text x="270" y="608" fill="#DCE7F7">Repository permissions</text><text x="680" y="608" fill="#DCE7F7">0700</text>
-    <text x="118" y="650" fill="#86EFAC" font-weight="800">PASS</text><text x="270" y="650" fill="#DCE7F7">Firewall manager</text><text x="680" y="650" fill="#DCE7F7">UFW detected</text>
-    <text x="118" y="692" fill="#FCD34D" font-weight="800">WARN</text><text x="270" y="692" fill="#DCE7F7">SSH service</text><text x="680" y="692" fill="#DCE7F7">Temporarily enabled for onboarding</text>
-    <text x="118" y="734" fill="#60A5FA" font-weight="800">INFO</text><text x="270" y="734" fill="#DCE7F7">Veeam transport</text><text x="680" y="734" fill="#DCE7F7">active</text>
-    <text x="118" y="776" fill="#60A5FA" font-weight="800">INFO</text><text x="270" y="776" fill="#DCE7F7">Immutability service</text><text x="680" y="776" fill="#DCE7F7">active</text>
+  <text x="102" y="307" font-family="Consolas,monospace" font-size="24" fill="#E5F0FF">host: vhrm-demo</text>
+  <text x="102" y="339" font-family="Consolas,monospace" font-size="20" fill="#B6C2D2">Ubuntu 24.04 LTS · Kernel 6.8</text>
+  <text x="102" y="365" font-family="Consolas,monospace" font-size="20" fill="#B6C2D2">CPU 8 vCPU · RAM 32 GB · SSD 4 TB</text>
+
+  <rect x="575" y="236" width="450" height="140" rx="18" fill="url(#panel)" stroke="#2B3545"/>
+  <text x="601" y="271" font-family="Segoe UI,Arial" font-size="20" fill="#69A8FF" font-weight="800">AUDIT</text>
+  <text x="601" y="309" font-family="Segoe UI,Arial" font-size="30" fill="#86EFAC" font-weight="800">7 pass</text>
+  <text x="760" y="309" font-family="Segoe UI,Arial" font-size="30" fill="#FCD34D" font-weight="800">1 warning</text>
+  <text x="601" y="346" font-family="Segoe UI,Arial" font-size="18" fill="#93A4B8">Repository ready for validation and onboarding</text>
+
+  <rect x="1074" y="236" width="450" height="140" rx="18" fill="url(#panel)" stroke="#2B3545"/>
+  <text x="1100" y="271" font-family="Segoe UI,Arial" font-size="20" fill="#69A8FF" font-weight="800">VEEAM</text>
+  <text x="1100" y="307" font-family="Consolas,monospace" font-size="20" fill="#E5F0FF">veeamtransport: active</text>
+  <text x="1100" y="337" font-family="Consolas,monospace" font-size="20" fill="#E5F0FF">veeamimmureposvc: active</text>
+  <text x="1100" y="365" font-family="Consolas,monospace" font-size="18" fill="#93A4B8">SSH disabled after onboarding</text>
+
+  <rect x="76" y="406" width="1448" height="54" rx="16" fill="#0D1524" stroke="#293446"/>
+  <rect x="92" y="416" width="190" height="34" rx="10" fill="#1D4ED8"/>
+  <text x="187" y="439" text-anchor="middle" font-family="Segoe UI,Arial" font-size="18" fill="#FFFFFF" font-weight="700">Security audit</text>
+  <text x="352" y="439" font-family="Segoe UI,Arial" font-size="18" fill="#AFC3DA">Storage</text>
+  <text x="470" y="439" font-family="Segoe UI,Arial" font-size="18" fill="#AFC3DA">Provision plan</text>
+  <text x="625" y="439" font-family="Segoe UI,Arial" font-size="18" fill="#AFC3DA">About</text>
+
+  <rect x="76" y="480" width="1448" height="388" rx="18" fill="#0E1625" stroke="#2B3545"/>
+  <rect x="92" y="498" width="1416" height="46" rx="10" fill="#111D2F"/>
+  <text x="118" y="527" font-family="Segoe UI,Arial" font-size="18" fill="#E5F0FF" font-weight="700">Status</text>
+  <text x="270" y="527" font-family="Segoe UI,Arial" font-size="18" fill="#E5F0FF" font-weight="700">Check</text>
+  <text x="860" y="527" font-family="Segoe UI,Arial" font-size="18" fill="#E5F0FF" font-weight="700">Detail</text>
+
+  <g font-family="Consolas,monospace" font-size="18">
+    <text x="118" y="581" fill="#86EFAC" font-weight="800">PASS</text><text x="270" y="581" fill="#DCE7F7">Repository filesystem</text><text x="860" y="581" fill="#DCE7F7">XFS</text>
+    <text x="118" y="627" fill="#86EFAC" font-weight="800">PASS</text><text x="270" y="627" fill="#DCE7F7">Repository permissions</text><text x="860" y="627" fill="#DCE7F7">0700</text>
+    <text x="118" y="673" fill="#86EFAC" font-weight="800">PASS</text><text x="270" y="673" fill="#DCE7F7">Firewall manager</text><text x="860" y="673" fill="#DCE7F7">UFW detected</text>
+    <text x="118" y="719" fill="#FCD34D" font-weight="800">WARN</text><text x="270" y="719" fill="#DCE7F7">SSH service</text><text x="860" y="719" fill="#DCE7F7">Temporarily enabled for onboarding</text>
+    <text x="118" y="765" fill="#60A5FA" font-weight="800">INFO</text><text x="270" y="765" fill="#DCE7F7">Veeam transport service</text><text x="860" y="765" fill="#DCE7F7">active</text>
+    <text x="118" y="811" fill="#60A5FA" font-weight="800">INFO</text><text x="270" y="811" fill="#DCE7F7">Immutability service</text><text x="860" y="811" fill="#DCE7F7">active</text>
   </g>
-  <text x="92" y="840" font-family="Segoe UI,Arial" font-size="18" fill="#9BB0C7">[R] Refresh</text>
-  <text x="220" y="840" font-family="Segoe UI,Arial" font-size="18" fill="#9BB0C7">[L] Language</text>
-  <text x="355" y="840" font-family="Segoe UI,Arial" font-size="18" fill="#9BB0C7">[Q] Quit</text>
+
+  <text x="92" y="908" font-family="Segoe UI,Arial" font-size="18" fill="#9BB0C7">[R] Refresh</text>
+  <text x="220" y="908" font-family="Segoe UI,Arial" font-size="18" fill="#9BB0C7">[L] Language</text>
+  <text x="355" y="908" font-family="Segoe UI,Arial" font-size="18" fill="#9BB0C7">[Q] Quit</text>
 </svg>
