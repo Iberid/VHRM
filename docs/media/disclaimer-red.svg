@@ -1,0 +1,10 @@
+<svg width="1200" height="110" viewBox="0 0 1200 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="110" rx="18" fill="#991B1B"/>
+  <rect x="8" y="8" width="1184" height="94" rx="14" fill="#B91C1C" stroke="#FCA5A5"/>
+  <circle cx="58" cy="55" r="24" fill="#FEE2E2"/>
+  <path d="M58 32 L75 78 H41 Z" fill="#B91C1C"/>
+  <circle cx="58" cy="68" r="3.5" fill="#FEE2E2"/>
+  <rect x="56" y="46" width="4" height="16" rx="2" fill="#FEE2E2"/>
+  <text x="100" y="48" font-family="Segoe UI,Arial" font-size="25" fill="#FFFFFF" font-weight="800">DISCLAIMER</text>
+  <text x="100" y="78" font-family="Segoe UI,Arial" font-size="18" fill="#FDECEC" font-weight="700">This community project is NOT affiliated with, sponsored by, or endorsed by Veeam Software. Validate all storage, SSH, firewall and hardening changes in a lab before production use.</text>
+</svg>
