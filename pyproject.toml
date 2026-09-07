@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "vhrm"
+version = "0.1.0"
+description = "Modern terminal manager and audit tool for Veeam Linux Hardened Repositories"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Iberid community project" }
+]
+dependencies = [
+  "textual>=0.82,<2",
+  "psutil>=5.9",
+]
+keywords = ["veeam", "hardened-repository", "immutability", "xfs", "backup", "ransomware"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+]
+
+[project.scripts]
+vhrm = "vhrm.app:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/vhrm"]
